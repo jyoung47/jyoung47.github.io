@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wheel of Fortune</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="d2"><h1>Wheel of Fortune</h1></div> 
+    <div id="word"><p>___________________</p></div>
+   
+    <hr style="width:50%">
+   
+    <div id="d1">
+        <input type="text" id="guessInput" placeholder="Letter" maxlength="1" size="3">
+      </div>
+      <div id="d3">
+        <button id="submitLetter">Submit</button>
+      </div>
+    <h2>Choose a Letter after spin</h2>
+    <p id="guessed-letters">Press Submit</p><p id="guesses"></p>
+    <hr style="width:50%">
+    <div id="d4"><h1>Spin 1st: <button onclick="spin()">SPIN</button></h1></div>
+    <div id="d5">Wager is:<h1><p id="amount-display">$0</p></h1></div>
+    <div id="d6">Winnings:<h1><p id="total-display">$0</p></h1></div>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
