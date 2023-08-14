@@ -1,55 +1,41 @@
 body {
-    background-color: black;
-    color: gold;
-    font-family: Arial, sans-serif;
-  }
+  background-color: black;
+  color: gold;
+  font-family: Arial, sans-serif;
+}
 
 
-  .header {
-    background-color: black;
-    color: gold;
-    text-align: center;
-    padding: 20px;
-  }
+.header {
+  background-color: black;
+  color: gold;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: whitesmoke;
+  color: gold;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 223, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
   
-  .container {
-    background-color: black;
-    color: gold;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 223, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    
-  }
-  
-  .button {
-    background-color: gold;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: rgba(122, 109, 22, 0.8);
-  }
-  
-  .futuristic-text {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .futuristic-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 30px rgba(255, 223, 0, 0.8);
-  }
+}
+
+.button {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(122, 109, 22, 0.8);
+}
