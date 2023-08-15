@@ -50,3 +50,8 @@ off of that by contructing the varibles I needed and worked with each one by one
 The predefined array of words was created by me and as the list become larger I created the display I knew I needed to work with. as the
 code expended I found myself debugging and creating new methods that made sense to make like the spin function, reset game function and 
 check win function.
+
+Adknowledgements
+Thank you to my instructors from Per Scholas, Tishana Trainor and Kasper Kain for providing me with all the help I needed to
+keep pushing forward with this project. Also would like to thank my friend Mohammed a Software Engineer from Ford Motor Company, who showed me how to add animation in javascript and css.  
+
