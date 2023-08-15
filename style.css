@@ -2,40 +2,57 @@ body {
   background-color: black;
   color: gold;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-
-.header {
-  background-color: black;
-  color: gold;
-  text-align: center;
-  padding: 20px;
-}
-
-.container {
-  background-color: whitesmoke;
-  color: gold;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 223, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  
-}
-
-.button {
-  background-color: gold;
-  color: black;
-  padding: 10px 20px;
-  border: none;
+#d5, #d6 {
+  position: absolute;
+  background-color: #716b3d;
+  padding: 10px;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 200px; 
 }
 
-.button:hover {
-  background-color: rgba(122, 109, 22, 0.8);
+#d5 {
+  top: 90px; 
+  left: 20px;
 }
+
+#d6 {
+  top: 90px; /* Adjust the top position as needed */
+  right: 20px;
+}
+
+#amount-display, #total-display {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #1fac36;
+}
+
+    
+.container {
+    background-color: rgb(191, 180, 25);
+    color: gold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 223, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+  }
+  
+#spinning-wheel {
+  animation: spin 5s linear infinite; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
